@@ -1539,6 +1539,7 @@ cc_library_static {
     cppflags: [
         "-Wold-style-cast",
         "-Wno-tautological-type-limit-compare",
+        "-DLEGACY_MMAP",
     ],
     local_include_dirs: ["stdio"],
     include_dirs: ["bionic/libstdc++/include"],
