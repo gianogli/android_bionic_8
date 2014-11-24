@@ -115,7 +115,7 @@ cc_binary {
         },
     },
 
-    cppflags: ["-Wold-style-cast"],
+    cppflags: ["-Wold-style-cast", "-DENABLE_NON_PIE_SUPPORT"],
 
     // we are going to link libc++_static manually because
     // when stl is not set to "none" build system adds libdl
