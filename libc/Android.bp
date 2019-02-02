@@ -1076,7 +1076,7 @@ cc_library_static {
                     "arch-arm/cortex-a15/bionic/strcat.S",
                     "arch-arm/cortex-a15/bionic/strcpy.S",
 
-		    // Use kryo specific strlen version.
+                    // Use kryo specific strlen version.
                     "arch-arm/kryo/bionic/strlen.S",
 
                     "arch-arm/denver/bionic/memmove.S",
